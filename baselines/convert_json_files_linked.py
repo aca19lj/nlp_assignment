@@ -43,6 +43,7 @@ if __name__ == '__main__':
                     text += ' ' + caption_separator + ' ' +data[d]['table_caption'] + '\n'
 
                     source.write(text)
+                    print(text)
                     descp = data[d]['text'].replace('[CONTINUE]', '') + '\n'
                     target.write(descp)
 

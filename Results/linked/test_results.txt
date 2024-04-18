@@ -1,0 +1,1 @@
+avg_val_loss = tensor(0.2285, device='cuda:0')epoch = 30loss = tensor(0.5259, device='cuda:0')step_count = 31train_loss = tensor(0.5259, device='cuda:0')val_avg_bleu = 53.09811619966316val_loss = tensor(0.2285, device='cuda:0')val_mover = tensor(0.5940, device='cuda:0')val_mover_mean1 = 0.594val_mover_median1 = 0.609
