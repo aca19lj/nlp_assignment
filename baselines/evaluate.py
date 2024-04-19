@@ -14,7 +14,7 @@ def compute_meteor(predictions, references, alpha=0.9, beta=3, gamma=0.5):
 
 def get_lines(fil):
     lines = []
-    with open(fil, 'r') as f:
+    with open(fil, 'r',encoding='utf-8') as f:
         for line in f:
             if line.strip():
                 lines.append(line.strip())
